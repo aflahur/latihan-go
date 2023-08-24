@@ -1,0 +1,5 @@
+Pertimbangan pertama adalah framework backend, dan dalam hal ini, saya akan menggunakan Gin,framework web yang sangat populer di komunitas Go. Framework ini memungkinkan saya dengan mudah membangun API RESTful yang sesuai dengan kebutuhan, mempercepat proses pengembangan.
+Dalam hal penyimpanan data, saya akan memilih menggunakan PostgreSQLsistem manajemen basis data (DBMS). Saya akan memanfaatkan package "github.com/jinzhu/gorm" yang merupakan ORM populer dalam ekosistem Go untuk menyederhanakan koneksi dan operasi dengan database.
+Saya juga akan mempertimbangkan penggunaan POSTMAN untuk menghasilkan dokumentasi API yang rapi dan mudah dipahami oleh tim pengembang dan pihak terkait lainnya.
+
+Untuk pengelolaan otentikasi, saya akan mengandalkan package JWT untuk mengimplementasikan autentikasi berbasis token JWT, yang dikenal cukup aman dan dapat diandalkan.
